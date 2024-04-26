@@ -2,7 +2,10 @@
 
 <h2>Hello, {{nome}}!</h2>
 <p>
-  Profissão: {{dados.profissao}} <br />
+  <img class="img-quadrada" src="{{url_for('static', filename='assets/blog.jpg')}}" />
+  <br />
+  Profissão: {{dados.profissao}}
+  <br />
   Stack: {{dados.stack}}
 </p>
 {% endblock %}
